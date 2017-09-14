@@ -1,70 +1,83 @@
-
-.black{
+.black {
     background-color: #545454;
 }
-.white{
+
+.white {
     background-color: white;
 }
 
 
 td {
     height: 50px;
-    width:50px;
+    width: 50px;
     text-align: center;
     vertical-align: middle;
 }
+
 table {
     border-collapse: collapse;
-    }
+}
 
-    
+
 .figure {
     background-image: url(../assets/img/chess.png);
     background-repeat: no-repeat;
     width 50px;
     height 50px;
 }
-.peshka_black{
+
+.peshka_black {
     background-position-x: -261px;
 }
-.peshka_white{
+
+.peshka_white {
     background-position-x: -261px;
     background-position-y: -50px;
 }
-.ladya_black{
+
+.ladya_black {
     background-position-x: -102px;
 }
-.ladya_white{
+
+.ladya_white {
     background-position-x: -102px;
     background-position-y: -50px;
 }
-.hourse_black{
+
+.hourse_black {
     background-position-x: -210px;
 }
-.hourse_white{
+
+.hourse_white {
     background-position-x: -210px;
     background-position-y: -50px;
 }
-.slon_black{
+
+.slon_black {
     background-position-x: -155px;
     background-position-y: 2px;
 }
-.slon_white{
+
+.slon_white {
     background-position-x: -155px;
-    background-position-y: -48px;    
+    background-position-y: -48px;
 }
-.king_black{
+
+.king_black {
     background-position-x: 5px;
     background-position-y: 2px;
 }
-.king_white{
+
+.king_white {
     background-position-x: 5px;
-    background-position-y: -48px;    
+    background-position-y: -48px;
 }
-.queen_black{
+
+.queen_black {
     background-position-x: -48px;
 }
-.queen_white{
+
+.queen_white {
     background-position-x: -48px;
-    background-position-y: -48px;    
+    background-position-y: -48px;
 }
