@@ -1,0 +1,141 @@
+div{ 
+  border: 1px solid;
+  margin: -1px;
+  text-align: center;
+  vertical-align: center;
+}
+
+
+.cell{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: -1px;
+}
+
+
+.desk{
+    position: relative;
+    width: 510px;
+    height: 510px;
+  
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+
+}
+._left{
+   left: 0px;
+}
+.right{
+    right: 0px;
+   
+}
+
+.a{
+  position: absolute;
+  left: 51px;
+  
+}
+.b{
+  left: 102px;
+ 
+}
+.c{
+  left :153px;
+ 
+}
+.d{
+  left: 204px;
+
+}
+.e{
+  right: 204px;
+  
+  
+}
+.f{
+  right: 153px;
+ 
+}
+.g{
+  right: 102px;
+ 
+}
+.h{
+  right: 51px;
+
+}
+
+
+.black {
+    background-color: #545454;
+}
+
+
+.figure {
+    background-image: url(../assets/img/chess.png);
+    background-repeat: no-repeat;
+
+}
+
+.peshka_black {
+    background-position-x: -261px;
+}
+
+.peshka_white {
+    background-position-x: -261px;
+    background-position-y: -50px;
+}
+
+.ladya_black {
+    background-position-x: -102px;
+}
+
+.ladya_white {
+    background-position-x: -102px;
+    background-position-y: -50px;
+}
+
+.hourse_black {
+    background-position-x: -210px;
+}
+
+.hourse_white {
+    background-position-x: -210px;
+    background-position-y: -50px;
+}
+
+.slon_black {
+    background-position-x: -155px;
+    background-position-y: 2px;
+}
+
+.slon_white {
+    background-position-x: -155px;
+    background-position-y: -48px;
+}
+
+.king_black {
+    background-position-x: 5px;
+    background-position-y: 2px;
+}
+
+.king_white {
+    background-position-x: 5px;
+    background-position-y: -48px;
+}
+
+.queen_black {
+    background-position-x: -48px;
+}
+
+.queen_white {
+    background-position-x: -48px;
+    background-position-y: -48px;
+}

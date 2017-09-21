@@ -1,0 +1,55 @@
+body {
+    min-width: 800px;
+    max-width: 1500px;
+}
+div {
+    text-align: center;
+    border: solid 1px;
+    min-width: 
+    
+    
+}
+
+.row {
+    text-align: center;
+    float: left;
+}
+
+.cell {
+    min-height: 50px;
+    min-width: 50px;
+    float: left;
+    margin: 0px;
+    text-align: center;
+
+}
+
+.cell_2 {
+    height: 50px;
+    width: 50px;
+    margin: 0px;
+    text-align: center;
+
+}
+
+
+.clear {
+    clear: both;
+}
+
+.float_left {
+    float: left;
+}
+
+.black {
+    background-color: #545454;
+}
+
+.colum {
+    float: left;
+    margin: -1px;
+}
+
+.float_right {
+    float: right;
+}
