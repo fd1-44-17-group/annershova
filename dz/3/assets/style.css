@@ -1,0 +1,264 @@
+.chess-table {
+    width: 100vmin;
+    height: 100vmin;
+
+}
+
+.chess-table div {
+    width: 10vmin;
+    height: 10vmin;
+    float: left;
+    position: relative;
+}
+
+.chess-table>div:nth-of-type(-n+10),
+.chess-table>div:nth-last-of-type(-n+10),
+.chess-table>div:nth-of-type(10n),
+.chess-table>div:nth-last-of-type(10n) {
+    background-color: #0da;
+}
+
+
+.chess-table>div:nth-of-type(-n+20):not(:nth-of-type(-n+10)):not(:nth-of-type(odd)):not(:nth-of-type(20)),
+.chess-table>div:nth-of-type(-n+40):not(:nth-of-type(-n+30)):not(:nth-of-type(odd)):not(:nth-of-type(40)),
+.chess-table>div:nth-of-type(-n+60):not(:nth-of-type(-n+50)):not(:nth-of-type(odd)):not(:nth-of-type(60)),
+.chess-table>div:nth-of-type(-n+80):not(:nth-of-type(-n+70)):not(:nth-of-type(odd)):not(:nth-of-type(80)),
+.chess-table>div:nth-of-type(-n+30):not(:nth-of-type(-n+20)):not(:nth-of-type(even)):not(:nth-of-type(21)),
+.chess-table>div:nth-of-type(-n+50):not(:nth-of-type(-n+40)):not(:nth-of-type(even)):not(:nth-of-type(41)),
+.chess-table>div:nth-of-type(-n+70):not(:nth-of-type(-n+60)):not(:nth-of-type(even)):not(:nth-of-type(61)),
+.chess-table>div:nth-of-type(-n+90):not(:nth-of-type(-n+80)):not(:nth-of-type(even)):not(:nth-of-type(81)) {
+    background-color: grey;
+}
+
+.chess-table>div:nth-child(even):not(:last-child)>div:nth-of-type(even):not(:last-child),
+.chess-table>div:nth-child(odd):not(:first-child)>div:nth-of-type(odd):not(:first-child) {
+    background-color: grey;
+}
+
+.chess-table>div:nth-of-type(2)::before,.chess-table>div:nth-of-type(92)::before{
+   content:  "1";
+}
+.chess-table>div:nth-of-type(3)::before,.chess-table>div:nth-of-type(93)::before{
+   content:  "2"
+}
+.chess-table>div:nth-of-type(4)::before, .chess-table>div:nth-of-type(94)::before{
+   content:  "3"
+}
+
+.chess-table>div:nth-of-type(5)::before, .chess-table>div:nth-of-type(95)::before{
+   content:  "4"
+}
+.chess-table>div:nth-of-type(6)::before, .chess-table>div:nth-of-type(96)::before{
+   content:  "5"
+}
+.chess-table>div:nth-of-type(7)::before, .chess-table>div:nth-of-type(97)::before{
+   content:  "6"
+}
+.chess-table>div:nth-of-type(8)::before, .chess-table>div:nth-of-type(98)::before{
+   content:  "7"
+}
+.chess-table>div:nth-of-type(9)::before, .chess-table>div:nth-of-type(99)::before{
+   content:  "8"
+}
+
+.chess-table>div:nth-of-type(11)::before,.chess-table>div:nth-of-type(20)::before{
+   content:  "a";
+}
+.chess-table>div:nth-of-type(21)::before,.chess-table>div:nth-of-type(30)::before{
+   content:  "b"
+}
+.chess-table>div:nth-of-type(31)::before, .chess-table>div:nth-of-type(40)::before{
+   content:  "c"
+}
+
+.chess-table>div:nth-of-type(41)::before, .chess-table>div:nth-of-type(50)::before{
+   content:  "d"
+}
+.chess-table>div:nth-of-type(51)::before, .chess-table>div:nth-of-type(60)::before{
+   content:  "e"
+}
+.chess-table>div:nth-of-type(61)::before, .chess-table>div:nth-of-type(70)::before{
+   content:  "h"
+}
+.chess-table>div:nth-of-type(71)::before, .chess-table>div:nth-of-type(80)::before{
+   content:  "g"
+}
+.chess-table>div:nth-of-type(81)::before, .chess-table>div:nth-of-type(90)::before{
+   content:  "h"
+}
+
+
+
+
+
+
+
+
+/*.chess-table>div:nth-of-type(-n+20):not(:nth-of-type(-n+10))::before {
+    
+    display: block;
+    content:"";
+    background-image: url(../../assets/chess.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top:55px;
+    left:5px;
+    background-size: 600%;
+    height: 10vmin;
+}
+
+
+.chess-table>div:nth-of-type(-n+20):not(:nth-of-type(-n+10))::before
+{
+    background-position: 
+}*/
+
+/*.chess-table>div:nth-of-type(-n+20):not(:nth-of-type(-n+10)):nth-of-type(even){
+    background-color: black;
+}*/
+
+/*.chess-table 
+div:nth-of-type(12),
+div:nth-of-type(14), 
+div:nth-of-type(16), 
+div:nth-of-type(18),
+
+div:nth-of-type(23),
+div:nth-of-type(25),
+div:nth-of-type(27),
+div:nth-of-type(29),
+
+div:nth-of-type(32),
+div:nth-of-type(34),
+div:nth-of-type(36),
+div:nth-of-type(38),
+
+div:nth-of-type(43),
+div:nth-of-type(45),
+div:nth-of-type(47), 
+div:nth-of-type(49), 
+div:nth-of-type(52),
+
+div:nth-of-type(54),
+div:nth-of-type(56),
+div:nth-of-type(58),
+div:nth-of-type(63),
+
+div:nth-of-type(65),
+div:nth-of-type(67),
+div:nth-of-type(69),
+div:nth-of-type(72),
+ 
+div:nth-of-type(74),
+div:nth-of-type(76),
+div:nth-of-type(78),
+div:nth-of-type(83),
+
+div:nth-of-type(85),
+div:nth-of-type(87),
+div:nth-of-type(89)
+{
+    background-color: #545454;
+}
+*/
+
+.chess-table div:nth-of-type(-n+30):not(:nth-of-type(-n+10)):not(:nth-of-type(11)):not(:nth-of-type(21)):not(:nth-of-type(20)):not(:nth-of-type(30))::before,
+.chess-table div:nth-of-type(-n+90):not(:nth-of-type(-n+70)):not(:nth-of-type(71)):not(:nth-of-type(81)):not(:nth-of-type(80)):not(:nth-of-type(90))::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-size: 600%;
+    position: absolute;
+    top: 5px;
+    left:15px;
+    background-image: url(../assets/chess.png);
+    background-repeat: no-repeat;
+
+}
+
+div:nth-of-type(n)::before {
+    background-position-x: -265px;
+}
+
+div:nth-of-type(-n+80):not(:nth-of-type(-n+70))::before {
+    background-position-x: -265px;
+    background-position-y: -50px;
+}
+
+
+div:nth-of-type(12)::before,
+div:nth-of-type(19)::before {
+
+    background-position-x: -105px;
+}
+
+div:nth-of-type(15)::before {
+    background-position-x: px;
+}
+
+div:nth-of-type(82)::before,
+div:nth-of-type(89)::before {
+    background-position-x: -105px;
+    background-position-y: -50px;
+}
+
+div:nth-of-type(13)::before,
+div:nth-of-type(18)::before {
+    background-position-x: -213px;
+}
+
+div:nth-of-type(83)::before,
+div:nth-of-type(88)::before {
+    background-position-x: -213px;
+    background-position-y: -50px;
+}
+
+div:nth-of-type(14)::before,
+div:nth-of-type(17)::before {
+    background-position-x: -160px;
+
+}
+
+div:nth-of-type(85)::before {
+    background-position-y: -50px;
+}
+
+
+div:nth-of-type(84)::before,
+div:nth-of-type(87)::before {
+    background-position-x: -160px;
+    background-position-y: -50px;
+}
+
+
+
+div:nth-of-type(16)::before {
+    background-position-x: -51px;
+}
+
+div:nth-of-type(86)::before {
+    background-position-x: -52px;
+    background-position-y: -50px;
+}
+
+
+
+
+/*div:nth-child(11n),
+div:nth-of-type(11n-2), 
+div:nth-of-type(11n-4),
+div:nth-of-type(11n-6),
+div:nth-of-type(11n-8)
+{
+    background-color:black;
+}*/
+
+/*.cell {
+    width: 10vmin;
+    height: 10vmin;
+    float: left;
+}
+.black {
+    background-color: #000;
+}*/
