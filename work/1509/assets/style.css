@@ -1,0 +1,35 @@
+div{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.div2{
+    clear: left;
+}
+.two_three{
+    margin-right: -18px; margin-left:38px ;
+}
+.three_two{
+    margin-left:-18px ; 
+}
+.two_one{
+    margin-left: -18px; margin-right: 38px;
+}
+.one_two{
+    margin-left: 38px; margin-right: -18px;
+}
+
+.one_two_three{
+    margin-left: 68px; margin-right: -88px;
+}
+
+.three_two_one{
+    margin-left:68px ; margin-right: -88px;
+}
+.three{
+    margin-left: -74px; 
+}
+.one{
+    margin-left: 38px; 
+}

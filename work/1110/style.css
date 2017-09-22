@@ -1,0 +1,16 @@
+div {
+    background-color: hsla(0, 0%, 87%, 1);
+    border: 4px solid black;
+    height: 50px;
+    width: 100px;
+   /* margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;*/
+    margin: 5px 10px 20px;
+    
+}
+body{ 
+    overflow-x: hidden /*спрайты*/
+    
+}
