@@ -1,0 +1,60 @@
+p {
+    text-align: justify;
+
+}
+
+a:nth-of-type(1) {
+    font-size: 30px;
+}
+
+a:nth-of-type(2) {
+    color: green;
+    text-align: center;
+
+}
+
+a:nth-of-type(3) {
+    color: red;
+
+}
+
+a:nth-of-type(5) {
+    color: blue;
+    font-style: oblique;
+}
+
+a:nth-of-type(n)::after {
+    content: "";
+    display: block;
+    margin-top: 10px;
+}
+
+@media screen and (min-width:800px) {
+    p{
+        float: left;
+        width: 30%;
+        height: 100%;
+        margin: 10px;
+    }
+    body::before{
+        display: block;
+        content: ">800px";
+        font-size: 20px;
+    }
+      
+}
+@media screen and (max-width: 400px){
+    body::before{
+        content: "<400px";
+        display: block;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:799px) and (min-width: 401px){
+        body::before{
+        display: block;
+        content: ">400px & <800px";
+        font-size: 20px;
+    }
+}
+
