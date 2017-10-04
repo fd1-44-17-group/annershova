@@ -1,0 +1,208 @@
+div {
+    border: 1px solid;
+    margin: -1px;
+    text-align: center;
+    vertical-align: center;
+}
+
+
+.cell {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: -1px;
+}
+
+
+.desk {
+    position: relative;
+    width: 510px;
+    height: 510px;
+
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+
+}
+
+._left {
+    left: 0px;
+}
+
+.right {
+    right: 0px;
+
+}
+
+.a {
+    position: absolute;
+    left: 51px;
+
+}
+
+.b {
+    left: 102px;
+
+}
+
+.c {
+    left: 153px;
+
+}
+
+.d {
+    left: 204px;
+
+}
+
+.e {
+    right: 204px;
+
+
+}
+
+.f {
+    right: 153px;
+
+}
+
+.g {
+    right: 102px;
+
+}
+
+.h {
+    right: 51px;
+
+}
+
+
+.black {
+    background-color: #545454;
+}
+
+
+.figure {
+    background-image: url(../assets/img/chess.png);
+    background-repeat: no-repeat;
+
+}
+
+.peshka_black {
+    background-position-x: -261px;
+    background-position-y: 0px;
+         -webkit-transition: background-position-y 2s, background-color 2s;
+    transition: background-position-y 2s, background-color 2s;
+
+}
+
+.peshka_white {
+    background-position-x: -261px;
+    background-position-y: -50px;
+         -webkit-transition: background-position-y 2s, background-color 2s;
+    transition: background-position-y 2s, background-color 2s;
+
+}
+
+.ladya_black {
+    background-position-x: -102px;
+    background-position-y: 0px;
+         -webkit-transition: background-position-y 2s, background-color 2s;
+    transition: background-position-y 2s, background-color 2s;
+
+}
+
+.ladya_white {
+    background-position-x: -102px;
+    background-position-y: -50px;
+     -webkit-transition: background-position-y 2s, background-color 2s;
+    transition: background-position-y 2s, background-color 2s;
+
+
+}
+
+.hourse_black {
+    background-position-x: -210px;
+    background-position-y: 0px;
+         -webkit-transition: background-position-y 2s, background-color 2s;
+    transition: background-position-y 2s, background-color 2s;
+
+}
+
+.hourse_white {
+    background-position-x: -210px;
+    background-position-y: -50px;
+         -webkit-transition: background-position-y 2s, background-color 2s;
+    transition: background-position-y 2s, background-color 2s;
+
+}
+
+.slon_black {
+    background-position-x: -155px;
+    background-position-y: 2px;
+         -webkit-transition: background-position-y 2s, background-color 2s;
+    transition: background-position-y 2s, background-color 2s;
+
+}
+
+.slon_white {
+    background-position-x: -155px;
+    background-position-y: -48px;
+         -webkit-transition: background-position-y 2s, background-color 2s;
+    transition: background-position-y 2s, background-color 2s;
+
+}
+
+.king_black {
+    background-position-x: 5px;
+    background-position-y: 2px;
+    -webkit-transition: background-position-y 2s, background-color 2s;
+    transition: background-position-y 2s, background-color 2s;
+
+}
+
+.king_white {
+    background-position-x: 5px;
+    background-position-y: -48px;
+    -webkit-transition: background-position-y 2s, background-color 2s;
+    transition: background-position-y 2s, background-color 2s;
+}
+
+.queen_black {
+    background-position-x: -48px;
+    background-position-y: 0px;
+     -webkit-transition: background-position-y 2s, background-color 2s;
+    transition: background-position-y 2s, background-color 2s;
+}
+
+.queen_white {
+    background-position-x: -48px;
+    background-position-y: -48px;
+     -webkit-transition: background-position-y 2s, background-color 2s;
+    transition: background-position-y 2s, background-color 2s;
+}
+
+
+
+
+div>div>div:nth-of-type(4):hover,
+div:nth-of-type(5):hover,
+div:nth-of-type(6):hover,
+div:nth-of-type(7):hover{
+    opacity: 1;
+    background-color: #6600FF;
+    transition: background-color 2s, opacity 3s;
+}
+.queen_white:hover,.king_white:hover,.ladya_white:hover,.hourse_white:hover,
+.slon_white:hover, .peshka_white:hover{
+    background-position-y: 5px;
+}
+.queen_black:hover,.king_black:hover,.ladya_black:hover,.hourse_black:hover,
+.slon_black:hover,.peshka_black:hover{
+    background-position-y: -48px;
+}
