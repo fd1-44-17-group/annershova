@@ -1,0 +1,120 @@
+
+div>div {
+    width: 80vmin;
+    height: 50vmin;
+    position: absolute;
+    border-radius: 5%;
+    border: solid;
+    border:hidden;
+
+}
+.c1{
+    width: 3vmin;
+    height: 3vmin;
+    border-radius: 50%;
+    background-color:red;
+    position: absolute;
+    top:1vmin;
+    left: 4vmin;
+    border:hidden;
+}
+.c2{
+    width: 3vmin;
+    height: 3vmin;
+    border-radius: 50%;
+    background-color:yellow;
+    position: absolute;
+    top:1vmin;
+    left: 10vmin;
+    border:hidden;
+}
+.c3{
+    width: 3vmin;
+    height: 3vmin;
+    border-radius: 50%;
+    background-color:green;
+    position: absolute;
+    top:1vmin;
+    left: 16vmin;
+    border:hidden;
+}
+.file_top{
+    position: absolute;
+    background-color: #FFD700;
+    top:25vmin;
+    border:hidden;
+}
+.file_bottom{
+    position: absolute;
+    background-color: #DAA520;
+    top:5vmin;
+    border:hidden;
+}
+.bottom1{
+    position: absolute;
+    width: 30vmin;
+    background-color: #DAA520;
+    border:hidden;
+    border-radius: 10%;
+}
+.f3{
+ transform: translateY(9vmin) scale(0.9,0.9);
+ border: solid 1px;
+ border-color: white;
+ background-color:#DCDCDC;
+}
+.f2{
+transform: translateY(3vmin) scale(0.8,0.8);
+background-color:#DCDCDC;
+border: solid 1px;
+border-color: white;
+}
+.f1{
+transform: translateY(-3vmin) scale(0.7,0.7);
+background-color: #DCDCDC;
+border: solid 1px;
+border-color: white;
+}
+
+div>div>div:nth-of-type(4), 
+div>div>div:nth-of-type(5), 
+div>div>div:nth-of-type(6){
+    width: 3vmin;
+    height: 1vmin;
+    border:solid 1px;
+    border-radius: 10%;
+    background-color: #C0C0C0;
+    position: relative;
+    top:2vmin;
+    right: -75vmin;
+    margin-top: 2px;
+    border:hidden;
+}
+
+
+
+
+@media screen {
+    div>div.f3:hover, div>div.f2:hover, div>div.f1:hover{
+        display: inline-block;
+        z-index: 40vmin;
+        transform: translateX(40vmin);
+    }
+}
+
+/*transition -- анимация
+transition: width  0.5s ease  2s
+            heigth;     linear
+            color;
+            all;
+            color 1s linear,
+            border-width 2s ease in --- для более общего класса
+
+div:hover{
+    width:200px;
+    color: green;
+    border-width:20px;
+}
+
+
+*/

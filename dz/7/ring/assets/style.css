@@ -1,0 +1,23 @@
+.color{
+    position:absolute;
+    width: 100vmin;
+    height: 100vmin;
+    background-color: #6B8E23;
+}
+.ring{
+    position: absolute;
+    width:90vmin;
+    height: 90vmin;
+    background-color: orange;
+    border-radius: 100%;
+    margin: 5vmin;
+   
+}
+.circle{
+    position: absolute;
+    width:60vmin;
+    height: 60vmin;
+    background-color: black;
+    border-radius: 100%;
+    margin: 15vmin;
+}
