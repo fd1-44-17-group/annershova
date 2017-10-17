@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <link href="assets/style.css" rel="stylesheet" text="text.css">
+    <!-- 6) Составить хеш со списком стран. Ключем должно быть название страны.
+    В качестве значения - хеш с площадью и численностю населения. 
+У пользователя запрашивать ввод. Если введено слово "справочник" - 
+выводить алертом список стран. Если введена страна из хеша - выводить ее численность и население. 
+Если введена не существующая страна - вывести сообщение об ошибке-->
+</head>
+
+<body>
+    <script>
+        var country = {
+            Belarus: 's = 1000 p = 1000',
+            USA: 's = 2000 p = 2000',
+            Japan: 's = 3000 p = 3000'
+        };
+        var i = prompt("enter country  ");
+
+
+        switch (i) {
+
+            case 'Belarus':
+                console.log(country.Belarus);
+                break;
+            case 'USA':
+                console.log(country.USA);
+                break;
+            case 'Japan':
+                console.log(country.Japan);
+                break;
+            default:
+                if (i == 'справочник') {
+                    for (var j in country) {
+                        alert(j);
+                    }
+                }
+                else {
+                    console.log('ERROR');
+                    break;
+                }
+        }
+    </script>
+</body>
+
+</html>

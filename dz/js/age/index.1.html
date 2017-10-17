@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <link href="assets/style.css" rel="stylesheet" text="text.css">
+    <!--  ) При запросе возраста, производить запрос возраста до тех пор, 
+    пока не будет введено корректное значение 
+    (цифры, значение больше нуля и меньше 200). 
+    Сделать тремя способами: - с помощью цикла for,
+    с помощью цикла do .. while и с помощью цикла while.-->
+</head>
+
+<body>
+    <script>
+        do {
+            var age = prompt('Enter your age');
+            age++;
+        } while (age<=0 || age >= 200);
+        alert('Your age is ' + --age);
+    </script>
+</body>
