@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <link href="assets/style.css" rel="stylesheet" text="text.css">
+    <!--   Создать массив. 
+    С помощью цикла запрашивать у пользователя цифры и сохранять 
+    в массиве до тех пор, пока он не введет пустую строку. 
+    В случае, если введено не число 
+    - выводить alert с предупреждением о некорректном вводе. 
+    После того, как введена пустая строка вывести в консоль элементы массива
+    с помощью цикла.-->
+</head>
+
+<body>
+    <script>
+        var arr = [];
+        for (var j = prompt("enter number  "); j != ''; j = prompt('enter number  ')) {
+            if ((parseFloat(j) && Number(j) || j == '0')) {
+
+                arr.push(j);//arr[arr.length] = j;
+
+            }
+            else{
+                alert('это был не прораб');
+            }
+        }
+        console.log(arr);
+    </script>
+</body>
+
+</html>
